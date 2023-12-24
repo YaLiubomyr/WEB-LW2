@@ -28,8 +28,8 @@ table {
     white-space: normal;
     margin: 0;
     padding: 0;
-    display: inline-block; /* Змінено на inline-block */
-    margin-left: 5vw; /* Додано */
+    display: inline-block;
+    margin-left: 5vw;
 }
 
 .padding-left{
@@ -45,8 +45,8 @@ table {
 
 .main-left {
     background-color: coral;
-    vertical-align: top; /* Змінено з text-align на vertical-align */
-    text-align: left; /* Залишено без змін */
+    vertical-align: top;
+    text-align: left;
     width: 25vw;
     min-height: 100%;
     padding: 1%;
@@ -87,7 +87,7 @@ table {
 
 .main-right-top li:hover a {
     background-color: black;
-    color: deeppink; /* Змінено на deeppink */
+    color: deeppink;
 }
 
 
@@ -136,8 +136,8 @@ table {
     white-space: normal;
     margin: 0;
     padding: 0;
-    display: inline-block; /* Змінено на inline-block */
-    margin-right: 5vw; /* Додано */
+    display: inline-block;
+    margin-right: 5vw;
 }
 
 img {
@@ -146,5 +146,5 @@ img {
 }
 
 td p {
-    margin-right: 20px; /* Змініть значення за потребою */
+    margin-right: 20px;
 }

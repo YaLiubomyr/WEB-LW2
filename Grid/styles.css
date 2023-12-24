@@ -5,15 +5,12 @@ body {
     overflow-x: hidden;
     display: grid;
     grid-template-rows: minmax(25vh, auto) minmax(50vh, auto) minmax(25vh, auto);
-    /* overflow-y: scroll; */
 }
 
 
 
 .header {
-    /* min-height: 25vh; */
     display: grid;
-    /* grid-column: 100%; */
 }
 
 .header-main{
@@ -21,9 +18,7 @@ body {
     grid-template-columns: minmax(25%, auto) auto;
     background-color:blue;
     text-align: right;
-    /* width: 100%; */
     align-items: center;
-    /* justify-content: center; */
     justify-content: space-between;
     padding: 2%;
 }
@@ -32,7 +27,6 @@ body {
     display: grid;
     background-color:white;
     text-align:center;
-    /* min-width: 25%; */
     height: 13vh;
     left: 5vw;
     justify-content: center;
@@ -53,22 +47,16 @@ body {
 .main-left {
     background-color:coral;
     text-align: left;
-    /* width: 25vw; */
-    /* min-height: 100%; */
     padding: 2%;
 }
 
 .main-right {
-    /* width: 75vw; */
-    /* min-height: 100%; */
     display: grid;
-    /* flex-direction: column; */
     grid-template-rows: 3vh minmax(47vh, auto);
 }
 
 .main-right-top {
     background-color:chartreuse;
-    /* height: 3vh; */
     white-space: nowrap;
 }
 
@@ -78,7 +66,6 @@ body {
     margin: 0;
     white-space: nowrap;
     padding-right: 1.5%;
-    /* width: 100%; */
 }
 
 .main-right-top li{
@@ -94,23 +81,17 @@ body {
 }
 
 .main-right-bottom {
-    /* min-height: calc(100% - 3vh); */
     display: grid;
-    /* flex-direction: row; */
     grid-template-columns: 50vw 25vw;
 }
 
 .main-right-bottom-left {
     background-color:white;
-    /* width: 50vw; */
-    /* min-height: calc(100% - 3vh); */
     padding: 1%;
 }
 
 .main-right-bottom-right {
     background-color:coral;
-    /* width: 25vw; */
-    /* min-height: calc(100% - 3vh); */
     padding: 3%;
 }
 
@@ -123,7 +104,6 @@ body {
 
 
 .footer {
-    /* min-height: 25vh; */
     display: grid;
 }
 
@@ -132,8 +112,6 @@ body {
     grid-template-columns: auto minmax(25%, auto);
     background-color:blue;
     text-align: left;
-    /* width: 100%; */
-    /* display: flex; */
     align-items: center;
     padding: 2%;
     justify-content: space-between;
@@ -141,16 +119,13 @@ body {
 
 .Y {
     background-color:white;
-    /* display: flex; */
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
     align-items: center;
-    /* min-width: 25%; */
     height: 13vh;
     position: relative;
     float: right;
-    /* align-self: center; */
     right: 5vw;    
     margin-left: 5vw;
     text-align: center;

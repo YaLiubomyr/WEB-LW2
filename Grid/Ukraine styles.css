@@ -1,7 +1,6 @@
 body {
     background-image:url("Прапор\ України.png");
     background-size: cover;
-    /* background-attachment: fixed; */
     margin: 0px;
     padding: 0;
     font: normal 20px "Times New Roman", Times, serif;
@@ -12,13 +11,11 @@ body {
 
 
 .header {
-    /* min-height: 25vh; */
     display: grid;
 }
 
 .header-main{
     text-align: right;
-    /* width: 100%; */
     display: grid;
     grid-template-columns: minmax(25%, auto) auto;
     align-items: center;
@@ -34,7 +31,6 @@ body {
 
 .X {
     text-align:center;
-    /* min-width: 25%; */
     height: 13vh;
     left: 5vw;
     display: grid;
@@ -58,17 +54,12 @@ body {
 
 .main-left {
     text-align: left;
-    /* width: 25vw; */
-    /* min-height: 100%; */
     padding: 2%;
     border: 5px solid coral;
 }
 
 .main-right {
-    /* width: 75vw; */
-    /* min-height: 100%; */
     display: grid;
-    /* flex-direction: column; */
     grid-template-rows: 4.3vh minmax(45.7vh, auto);
 }
 
@@ -84,7 +75,6 @@ body {
     margin: 0;
     white-space: nowrap;
     padding-right: 1.5%;
-    /* width: 100%; */
 }
 
 .main-right-top li{
@@ -100,15 +90,11 @@ body {
 }
 
 .main-right-bottom {
-    /* min-height: calc(100% - 5vh); */
     display: grid;
-    /* flex-direction: row; */
     grid-template-columns: 50vw 25vw;
 }
 
 .main-right-bottom-left {
-    /* width: 50vw; */
-    /* min-height: calc(100% - 5vh); */
     padding: 1%;
     border: 5px solid white;
 }
@@ -118,8 +104,6 @@ body {
 }
 
 .main-right-bottom-right {
-    /* width: 25vw; */
-    /* min-height: calc(100% - 5vh); */
     padding: 3%;
     border: 5px solid coral;
 }
@@ -133,14 +117,12 @@ body {
 
 
 .footer {
-    /* min-height: 25vh; */
     display: grid;
 }
 
 .footer-main{
     text-align: left;
     grid-template-columns: auto minmax(25%, auto);
-    /* width: 100%; */
     display: grid;
     align-items: center;
     padding: 2%;
@@ -153,7 +135,6 @@ body {
     grid-template-columns: auto;
     justify-content: center;
     align-items: center;     
-    /* min-width: 25%; */
     height: 13vh;
     position: relative;
     float: right;
